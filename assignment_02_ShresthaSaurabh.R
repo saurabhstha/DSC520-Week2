@@ -70,7 +70,7 @@ db <- dbConnect(RSQLite::SQLite(), "C:/Users/Saurabh/Desktop/DSC 520/Week2/dsc52
 ## `SELECT * FROM PERSON;` SQL statement
 ## Assign the result to the `person_df` variable
 ## Use `head()` to look at the first few rows of the `person_df` dataframe
-person_df <- dbGetQuery(db, "SELECT * FROM PERSON")
+person_df <- dbGetQuery(db, "SELECT * FROM PERSON:")
 head(person_df)
 
 ## List the tables using the `dbListTables()` function
@@ -80,7 +80,7 @@ table_names <- dbListTables(db)
 ## Read all of the tables at once using the `lapply` function and assign the result to the `tables` variable
 ## Use `table_names`, `dbReadTable`, and `conn = db` as arguments
 ## Print out the tables
-tables <- lapply(table_names, dbReadTable, db)
+tables <- lapply(table_names, dbReadTable, conn = db)
 print(tables)
 
 ## Use the `dbDisconnect` function to disconnect from the database
