@@ -6,7 +6,7 @@
 ## Assign the value to a variable named `num_vector`
 ## Print the vector
 num_vector <- c(3, 2, 1)
-num_vector
+print(num_vector)
 
 ## Create a character vector with the values of "three", "two", "one" "using the `c()` function
 ## Assign the value to a variable named `char_vector`
@@ -58,11 +58,9 @@ week1_sleep["Tuesday"]
 
 ## Create vector called weekdays from the days vector
 weekdays <- days[2:6]
-weekdays
 
 ## Create vector called weekends containing Sunday and Saturday
 weekends <- days[c(1,7)]
-
 
 ## Calculate the mean about sleep on weekdays for each week
 ## Assign the values to weekdays1_mean and weekdays2_mean
@@ -82,7 +80,6 @@ student02 <- c(77.2, 88.9)
 student03 <- c(66.3, 87.9)
 
 students_combined <- c(student01, student02,student03)
-students_combined
 grades <- matrix(students_combined, byrow = TRUE, nrow = 3)
 
 ## Add a new student row with `rbind()`
