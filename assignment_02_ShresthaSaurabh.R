@@ -13,7 +13,7 @@ dir("C:/Users/Saurabh/Documents")
 ## working directory to project root folder (the folder should contain the `data` directory
 ## Use `setwd()` if needed
 ## setwd("/home/jdoe/Workspaces/dsc520/data")
-setwd("C:/Users/Saurabh/Desktop/DSC 520/Week2/dsc520/assignments/assignment02/data")
+setwd("C:/Users/Saurabh/Desktop/DSC 520/Week2/dsc520/data")
 
 
 ## Load the file `data/tidynomicon/person.csv` to `person_df1` using `read.csv`
