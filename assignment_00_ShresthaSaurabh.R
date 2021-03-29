@@ -40,8 +40,7 @@ class_name <- "DSC520"
 print(class_name)
 ## Assign the string value of TRUE to the variable is_good
 ## Print the value of is_good
-is_good <- TRUE
-print(is_good)
+is_good <- "TRUE"
 
 ## Check the class of the variable is_good using the `class()` function
 class(is_good)
@@ -51,4 +50,3 @@ class(z)
 
 ## Check the class of the variable class_name using the class() function
 class(class_name)
-
